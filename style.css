@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    background: lightskyblue;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 30%;
+    width: 50%;
+    background: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card__title {
+    font-size: 3rem;
+    margin: 30px;
+}
+
+.card__joke {
+    padding: 20px;
+    margin: 10px;
+    font-size: 1.2rem;
+}
+
+.card__btn {
+    margin: 30px;
+    background: purple;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    color: whitesmoke;
+    cursor: pointer;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card__btn:hover {
+    background: rgb(91, 4, 91);
+}
