@@ -20,8 +20,8 @@ body {
 }
 
 .card {
-    height: 30%;
-    width: 50%;
+    margin: 10px;
+    max-width: 800px;
     background: whitesmoke;
     border-radius: 20px;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
@@ -52,4 +52,8 @@ body {
 
 .card__btn:hover {
     background: rgb(91, 4, 91);
+}
+
+.card__btn:active {
+    background: rgb(143, 7, 143);
 }
