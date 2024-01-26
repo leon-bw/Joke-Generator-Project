@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-    height: 100vh;
+    height: 100dvh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,11 +25,13 @@ body {
     background: whitesmoke;
     border-radius: 20px;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
 }
 
 .card__title {
     font-size: 3rem;
-    margin: 30px;
+    margin: 10px;
+    text-align: center;
 }
 
 .card__joke {
@@ -39,7 +41,8 @@ body {
 }
 
 .card__btn {
-    margin: 30px;
+    width: 100%;
+    margin: 10px auto;
     background: purple;
     padding: 10px 20px;
     font-size: 1.5rem;
